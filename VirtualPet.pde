@@ -1,8 +1,46 @@
-
-void setup(){
-  //some of your code here
+void setup() {
+  size(400,400);
+  background(0,190,250);
 }
-void draw(){
-  //more of your code here
+void draw() {
+  noStroke();
+  //clouds
+  fill(255,255,255,100);
+  ellipse(300,70,80,60);
+  ellipse(340,70,40,30);
+  ellipse(260,80,40,30);
+  //body
+  fill(0,100,220);
+  ellipse(190,200,100,160);
+  //tail
+  triangle(230,200,270,350,200,250);
+  //head
+  ellipse(170,110,70,70);
+  triangle(164,75,220,80,190,120);
+  fill(0,0,0);
+  triangle(110,120,135,110,143,130);
+  //legs
+  fill(0,0,0);
+  triangle(160,290,170,290,130,340);
+  triangle(210,290,220,290,180,340);
+  fill(0,100,220);
+  ellipse(165,280,30,40);
+  ellipse(210,280,30,40);
+  //body2
+  fill(255,255,255);
+  ellipse(162,115,50,55);
+  ellipse(170,200,60,130);
+  //eyes
+  fill(0,0,0);
+  ellipse(150,113,10,10);
+  //branch
+  fill(90,50,50);
+  triangle(400,330,70,340,400,370);
+  //leaf
+  stroke(0,100,0);
+  fill(0,100,0);
+  line(390,330,380,310);
+  ellipse(365,310,30,20);
+  line(350,365,330,380);
+  ellipse(315,385,30,20);
 }
-
