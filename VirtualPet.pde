@@ -39,8 +39,10 @@ void draw() {
   //leaf
   stroke(0,100,0);
   fill(0,100,0);
-  line(390,330,380,310);
-  ellipse(365,310,30,20);
   line(350,365,330,380);
   ellipse(315,385,30,20);
+  line(390,330,380,310);
+  translate(365,330);
+  rotate(PI/4);
+  ellipse(-15,-20,30,20);
 }
